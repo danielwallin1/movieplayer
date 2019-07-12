@@ -1,0 +1,14 @@
+.player {
+    box-shadow: 0 0 0 2px #eee;
+    background-size: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+}
+
+@media (max-width:768px) {
+    .player {
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Mylodon-Light';
+  src: url('../dist/client/static/fonts/Mylodon-Light.otf') format('open-type'),
+  url('../dist/client/static/fonts/Mylodon-Light.woff2') format('woff2'),
+  url('../dist/client/static/fonts/Mylodon-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body, html {
+  background-color: #061823;
+  height: 100%;
+  overflow-x: hidden;
+}

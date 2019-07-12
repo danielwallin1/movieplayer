@@ -1,0 +1,78 @@
+.controls {
+  background-color: #eee;
+  border-radius: 0 0 5px 5px;
+  margin-top: -8px;
+  position: relative;
+  width: calc(100% + 4px);
+  text-align: center;
+  left: -2px;
+
+  .current-time {
+    position: absolute;
+    left: 10px;
+    font-size: 13px;
+    font-family: arial, 'sans-serif';
+  }
+
+  .duration-time {
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+    font-family: arial, 'sans-serif';
+  }
+
+  .progress {
+    display: inline-block;
+    width: 99%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .buttons {
+    button {
+      outline: none;
+      height: 35px;
+      border-radius: 50%;
+      width: 35px;
+      border: 1px solid #777;
+      margin-right: 10px;
+      margin-bottom: 13px;
+      margin-top: 4px;
+      cursor: pointer;
+    }
+
+    button.play .fa-play {
+      font-size: 15px;
+      margin-left: 4px;
+      pointer-events: none;
+    }
+
+    button.play .fa-pause {
+      font-size: 16px;
+      pointer-events: none;
+    }
+
+    button.stop .fa-stop {
+      font-size: 15px;
+      pointer-events: none;
+    }
+
+    button.mute .fa-volume-off {
+      font-size: 20px;
+      pointer-events: none;
+    }
+
+    button.mute .fa-volume-up {
+      font-size: 17px;
+      pointer-events: none;
+    }
+
+    .volume {
+      width: 50%;
+      transform: translateY(5px);
+      margin-right: 13px;
+      margin-left: 3px;
+      cursor: pointer;
+    }
+  }
+}
