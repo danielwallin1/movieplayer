@@ -27,8 +27,9 @@ const Movie = props => {
     return (
         <Query query={ GET_MOVIE } variables={{ id }}>
             {({ loading, data: { movie } }) => {
-                if (loading) return "";
+                if (loading) return null;
 
+                console.log(movie)
                 return (
                     <Fragment>
                         <span onClick={goHome} className="home">

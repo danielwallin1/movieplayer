@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 0 0 50px 0;
+    width: 85%;
+    margin: 0 auto 50px;
     padding: 0;
     list-style: none;
 
@@ -35,28 +36,24 @@
 
       .list-item {
         border: 1px solid #10B7FF;
-        height: 305px;
+        height: 304px;
         max-width: 500px;
         overflow: hidden;
         margin-bottom: 10px;
         text-align: center;
-        -webkit-box-reflect: below -2px -webkit-gradient(linear, left top, left bottom, from(#0000), color-stop(30%, #0000), to(#fafafa1a));
 
         .poster {
           height: 100%;
-          width: auto;
+          width: 100%;
           display: inline-block;
-          -webkit-box-reflect: below 80px -webkit-gradient(linear, left top, left bottom, from(#0000), color-stop(40%, #0000), to(#fafafa1a));
         }
 
         .poster:after {
           content: "";
           display: block;
-          background: -moz-element(#moz-reflect) no-repeat;
           width: auto;
           height: 375px;
           margin-bottom: 100px;
-          -moz-transform: scaleY(-1);
         }
       }
     }

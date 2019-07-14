@@ -7,18 +7,12 @@
   cursor: pointer;
 }
 
-#video {
-  -webkit-box-reflect: below 80px -webkit-gradient(linear, left top, left bottom, from(#0000), color-stop(40%, #0000) , to(#fafafa1a));
-}
-
 #video:after {
   content: "";
   display: block;
-  background: -moz-element(#moz-reflect) no-repeat;
   width: auto;
   height: 375px;
   margin-bottom: 100px;
-  -moz-transform: scaleY(-1);
 }
 
 i {

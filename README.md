@@ -30,3 +30,6 @@ https://topmovielibrary.herokuapp.com/
 **Övrigtt:**
 
 Applikationen är optimerad för desktop och Chrome.
+
+![Movieplayer1](./dist/client/static/images/movieplayer1.png)
+![Movieplayer2](./dist/client/static/images/movieplayer2.png)
