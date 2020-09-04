@@ -34,7 +34,7 @@
     "history": "^4.7.2",
     "is-descriptor": "^1.0.2",
     "jest": "^23.3.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-apollo": "^2.1.9",
